@@ -1,0 +1,9 @@
+d:\GodelMasteryLabs\MethodsTracer\Tracer\bin\Debug\netstandard2.0\MethodsTracer.deps.json
+d:\GodelMasteryLabs\MethodsTracer\Tracer\bin\Debug\netstandard2.0\MethodsTracer.dll
+d:\GodelMasteryLabs\MethodsTracer\Tracer\bin\Debug\netstandard2.0\MethodsTracer.pdb
+d:\GodelMasteryLabs\MethodsTracer\Tracer\obj\Debug\netstandard2.0\MethodsTracer.csproj.CoreCompileInputs.cache
+d:\GodelMasteryLabs\MethodsTracer\Tracer\obj\Debug\netstandard2.0\MethodsTracer.AssemblyInfoInputs.cache
+d:\GodelMasteryLabs\MethodsTracer\Tracer\obj\Debug\netstandard2.0\MethodsTracer.AssemblyInfo.cs
+d:\GodelMasteryLabs\MethodsTracer\Tracer\obj\Debug\netstandard2.0\MethodsTracer.dll
+d:\GodelMasteryLabs\MethodsTracer\Tracer\obj\Debug\netstandard2.0\MethodsTracer.pdb
+d:\GodelMasteryLabs\MethodsTracer\Tracer\obj\Debug\netstandard2.0\MethodsTracer.csprojResolveAssemblyReference.cache

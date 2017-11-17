@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "TestMethods/1.0.0": {
+        "dependencies": {
+          "MethodsTracer": "1.0.0",
+          "XmlFormatter": "1.0.0"
+        },
+        "runtime": {
+          "TestMethods.dll": {}
+        }
+      },
+      "MethodsTracer/1.0.0": {
+        "runtime": {
+          "MethodsTracer.dll": {}
+        }
+      },
+      "XmlFormatter/1.0.0": {
+        "dependencies": {
+          "MethodsTracer": "1.0.0"
+        },
+        "runtime": {
+          "XmlFormatter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestMethods/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MethodsTracer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "XmlFormatter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
