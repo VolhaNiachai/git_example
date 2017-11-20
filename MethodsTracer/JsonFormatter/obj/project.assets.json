@@ -218,11 +218,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\JsonFormatter\\JsonFormatter.csproj",
+      "projectUniqueName": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\JsonFormatter\\JsonFormatter.csproj",
       "projectName": "JsonFormatter",
-      "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\JsonFormatter\\JsonFormatter.csproj",
+      "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\JsonFormatter\\JsonFormatter.csproj",
       "packagesPath": "C:\\Users\\v.niachai\\.nuget\\packages\\",
-      "outputPath": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\JsonFormatter\\obj\\",
+      "outputPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\JsonFormatter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -241,11 +241,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\MethodsTracer.csproj": {
-              "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\MethodsTracer.csproj"
+            "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\MethodsTracer.csproj": {
+              "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\MethodsTracer.csproj"
             },
-            "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\MethodsTracer\\TestMethods.csproj": {
-              "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\MethodsTracer\\TestMethods.csproj"
+            "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\MethodsTracer\\TestMethods.csproj": {
+              "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\MethodsTracer\\TestMethods.csproj"
             }
           }
         }

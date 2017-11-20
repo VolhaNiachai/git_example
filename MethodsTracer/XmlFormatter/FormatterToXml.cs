@@ -15,7 +15,7 @@ namespace XmlFormatter
         
         public void FormatToXml(Tracer tracer)
         {
-            List<TraceResult> Result = new List<TraceResult>(tracer.GetListOfResults());
+            List<TraceResult> Result = new List<TraceResult>(tracer.Result);
             XmlSerializer serializer = new XmlSerializer(typeof(List<TraceResult>));
             StringBuilder emptyString = new StringBuilder();
             using (FileStream fileStream = new FileStream("Result.xml", FileMode.Create))

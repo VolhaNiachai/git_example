@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YAML-Serializer" Version="1.2.0-beta" />
+    <PackageReference Include="YamlDotNet" Version="4.2.3-pre0454" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YamlFormatterInterface\YamlFormatterInterface.csproj" />
+  </ItemGroup>
+
+</Project>

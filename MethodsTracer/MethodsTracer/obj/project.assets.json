@@ -708,11 +708,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\MethodsTracer\\TestMethods.csproj",
+      "projectUniqueName": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\MethodsTracer\\TestMethods.csproj",
       "projectName": "TestMethods",
-      "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\MethodsTracer\\TestMethods.csproj",
+      "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\MethodsTracer\\TestMethods.csproj",
       "packagesPath": "C:\\Users\\v.niachai\\.nuget\\packages\\",
-      "outputPath": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\MethodsTracer\\obj\\",
+      "outputPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\MethodsTracer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -731,11 +731,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\MethodsTracer.csproj": {
-              "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\MethodsTracer.csproj"
+            "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\MethodsTracer.csproj": {
+              "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\MethodsTracer.csproj"
             },
-            "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\XmlFormatter\\XmlFormatter.csproj": {
-              "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\MethodsTracer\\XmlFormatter\\XmlFormatter.csproj"
+            "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\XmlFormatter\\XmlFormatter.csproj": {
+              "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\MethodsTracer\\XmlFormatter\\XmlFormatter.csproj"
             }
           }
         }

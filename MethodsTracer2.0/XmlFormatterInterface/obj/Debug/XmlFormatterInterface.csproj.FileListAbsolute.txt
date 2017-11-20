@@ -1,0 +1,14 @@
+E:\Godel\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.csproj.CoreCompileInputs.cache
+E:\Godel\MethodsTracer2.0\TestMethods\obj\XmlFormatterInterface.dll
+E:\Godel\MethodsTracer2.0\TestMethods\obj\XmlFormatterInterface.pdb
+E:\Godel\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.csprojResolveAssemblyReference.cache
+E:\Godel\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.dll
+E:\Godel\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\XmlFormatterInterface.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\XmlFormatterInterface.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\bin\Debug\XmlFormatterInterface.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\bin\Debug\XmlFormatterInterface.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.csprojResolveAssemblyReference.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.csproj.CoreCompileInputs.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatterInterface\obj\Debug\XmlFormatterInterface.pdb

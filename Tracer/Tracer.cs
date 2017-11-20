@@ -13,7 +13,7 @@ namespace MethodsTracer
         private static Tracer instance;
         public Stopwatch stopWatch = new Stopwatch();
         StackFrame stackFrame = new StackFrame();
-        StackTrace stackTrace = new StackTrace();
+        //StackTrace stackTrace = new StackTrace();
         public List<TraceResult> Result = new List<TraceResult>();
         public void StartTrace()
         {
@@ -44,7 +44,7 @@ namespace MethodsTracer
         }
         public List<TraceResult> GetListOfResults()
         {
-            stackTrace = new StackTrace();
+            StackTrace stackTrace = new StackTrace();
             //TraceResult traceResult;
             for (int i = 0; i < stackTrace.FrameCount; i++)
             {

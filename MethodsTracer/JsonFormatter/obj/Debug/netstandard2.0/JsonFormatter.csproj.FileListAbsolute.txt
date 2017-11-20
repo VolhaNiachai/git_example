@@ -1,0 +1,4 @@
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer\JsonFormatter\obj\Debug\netstandard2.0\JsonFormatter.csprojResolveAssemblyReference.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer\JsonFormatter\obj\Debug\netstandard2.0\JsonFormatter.csproj.CoreCompileInputs.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer\JsonFormatter\obj\Debug\netstandard2.0\JsonFormatter.AssemblyInfoInputs.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer\JsonFormatter\obj\Debug\netstandard2.0\JsonFormatter.AssemblyInfo.cs

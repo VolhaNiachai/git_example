@@ -14,6 +14,6 @@ namespace MethodsTracer
         void StopTrace();
 
         // возвращает объект с результатами измерений
-        TraceResult GetTraceResult(int currentNumberOfMethod, StackTrace stackTrace);
+        TraceResult GetTraceResult();
     }
 }

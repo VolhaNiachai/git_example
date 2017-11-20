@@ -186,11 +186,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\MethodsTracer.csproj",
+      "projectUniqueName": "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\MethodsTracer.csproj",
       "projectName": "MethodsTracer",
-      "projectPath": "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\MethodsTracer.csproj",
+      "projectPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\MethodsTracer.csproj",
       "packagesPath": "C:\\Users\\v.niachai\\.nuget\\packages\\",
-      "outputPath": "d:\\GodelMasteryLabs\\MethodsTracer\\Tracer\\obj\\",
+      "outputPath": "d:\\GodelMasteryLabs\\git-project\\git-example\\Tracer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
