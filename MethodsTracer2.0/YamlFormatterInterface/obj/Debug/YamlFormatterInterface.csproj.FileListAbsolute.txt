@@ -1,0 +1,6 @@
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\YamlFormatterInterface.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\YamlFormatterInterface.pdb
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatterInterface\obj\Debug\YamlFormatterInterface.csprojResolveAssemblyReference.cache
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatterInterface\obj\Debug\YamlFormatterInterface.csproj.CoreCompileInputs.cache
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatterInterface\obj\Debug\YamlFormatterInterface.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatterInterface\obj\Debug\YamlFormatterInterface.pdb

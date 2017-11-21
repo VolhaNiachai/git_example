@@ -8,6 +8,6 @@ namespace YamlFormatterInterface
 {
     public interface IYamlFormatter
     {
-        void FormateToaml(Tracer tracer);
+        void FormateToYaml(Tracer tracer);
     }
 }

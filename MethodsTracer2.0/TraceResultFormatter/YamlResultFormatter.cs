@@ -3,33 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using MethodsTracer;
-using XmlFormatterInterface;
+using YamlFormatterInterface;
 using System.IO;
 using System.Reflection;
-using ITraceResultFormatter;
-
 
 namespace TraceResultFormatter
 {
-    public class XmlResultFormatter
+    public class YamlResultFormatter
     {
-        public void GetXml(Tracer tracer)
+        public void GetYaml(Tracer tracer)
         {
-            string AboutXmlFormatterName = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location),
-                                         "AboutXmlFormatter.dll");
-            if (!File.Exists(AboutXmlFormatterName))
+            string AboutYamlFormatterName = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location),
+                                         "AboutYamlFormatter.dll");
+            if (!File.Exists(AboutYamlFormatterName))
             {
                 throw new ArgumentNullException();
             }
-            Assembly AboutXmlFormatterAssembly = Assembly.LoadFrom(AboutXmlFormatterName);
-            foreach (Type type in AboutXmlFormatterAssembly.GetExportedTypes())
+            Assembly AboutYamlFormatterAssembly = Assembly.LoadFrom(AboutYamlFormatterName);
+            foreach (Type type in AboutYamlFormatterAssembly.GetExportedTypes())
             {
-                if (type.IsClass && typeof(IXmlFormatter).IsAssignableFrom(type))
+                if (type.IsClass && typeof(IYamlFormatter).IsAssignableFrom(type))
                 {
-                    IXmlFormatter xmlFormatter = (IXmlFormatter)Activator.CreateInstance(type);
-                    xmlFormatter.FormateToXml(tracer);
+                    IYamlFormatter yamlFormatter = (IYamlFormatter)Activator.CreateInstance(type);
+                    yamlFormatter.FormateToYaml(tracer);
                 }
             }
         }
     }
 }
+

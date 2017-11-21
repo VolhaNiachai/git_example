@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+!<!System.Collections.Generic.List%601[[MethodsTracer.TraceResult,+MethodsTracer,+Version=1.0.0.0,+Culture=neutral,+PublicKeyToken=null]]>
+Capacity: 4
+ICollection.Items: 
+  - MethodsName: LostTestMethod
+    MethodsTypeName: Methods
+    CurrentTime: 19
+    QuantityOfParameters: 0
+  - MethodsName: LowerTestMethod
+    MethodsTypeName: Methods
+    CurrentTime: 30
+    QuantityOfParameters: 0
+  - MethodsName: UpperTestMethod
+    MethodsTypeName: Methods
+    CurrentTime: 81
+    QuantityOfParameters: 0
+...

@@ -6,8 +6,7 @@ using MethodsTracer;
 using XmlFormatterInterface;
 using System.IO;
 using System.Reflection;
-using ITraceResultFormatter;
-using XmlFormatterInterface;
+
 
 
 namespace TraceResultFormatter

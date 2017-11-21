@@ -7,6 +7,8 @@ using XmlFormatterInterface;
 using TraceResultFormatter;
 using MethodsTracer;
 using JsonFormatterInterface;
+using YamlFormatterInterface;
+
 
 namespace TestMethods
 {
@@ -14,9 +16,9 @@ namespace TestMethods
     {
         public void ChooseFormat(Tracer tracer)
         {
-            Console.WriteLine("Press xml, concsole or json");
+            Console.WriteLine("Press xml, concsole, json or yaml");
             string choosedFormat = Console.ReadLine();
-            switch(choosedFormat)
+            switch (choosedFormat)
             {
                 case "xml":
                     XmlResultFormatter xmlResultFormatter = new XmlResultFormatter();
@@ -30,10 +32,14 @@ namespace TestMethods
                     JsonResultFormatter jsonResultFormatter = new JsonResultFormatter();
                     jsonResultFormatter.GetJson(tracer);
                     break;
+                case "yaml":
+                    YamlResultFormatter yamlResultFormatter = new YamlResultFormatter();
+                    yamlResultFormatter.GetYaml(tracer);
+                    break;
                 default:
                     Console.WriteLine("Default");
                     break;
-            }      
+            }
         }
     }
 }

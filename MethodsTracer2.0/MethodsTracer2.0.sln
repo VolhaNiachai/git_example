@@ -17,9 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFormatterInterface", "J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceResultFormatter", "TraceResultFormatter\TraceResultFormatter.csproj", "{57011E2F-84B4-4996-A151-1E90CDC050F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutYamlFormatter", "AboutYamlFormatter\AboutYamlFormatter.csproj", "{EFA5EA21-321A-4126-B521-5E187786E394}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutYamlFormatter", "AboutYamlFormatter\AboutYamlFormatter.csproj", "{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlFormatterInterface", "YamlFormatterInterface\YamlFormatterInterface.csproj", "{A71B040C-1435-4F44-9405-C57A1ADD9953}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlFormatterInterface", "YamlFormatterInterface\YamlFormatterInterface.csproj", "{E8D77030-65DE-4E9F-8F87-289D43965823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,14 +55,14 @@ Global
 		{57011E2F-84B4-4996-A151-1E90CDC050F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57011E2F-84B4-4996-A151-1E90CDC050F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57011E2F-84B4-4996-A151-1E90CDC050F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFA5EA21-321A-4126-B521-5E187786E394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFA5EA21-321A-4126-B521-5E187786E394}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFA5EA21-321A-4126-B521-5E187786E394}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFA5EA21-321A-4126-B521-5E187786E394}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A71B040C-1435-4F44-9405-C57A1ADD9953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A71B040C-1435-4F44-9405-C57A1ADD9953}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A71B040C-1435-4F44-9405-C57A1ADD9953}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A71B040C-1435-4F44-9405-C57A1ADD9953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D77030-65DE-4E9F-8F87-289D43965823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D77030-65DE-4E9F-8F87-289D43965823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D77030-65DE-4E9F-8F87-289D43965823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D77030-65DE-4E9F-8F87-289D43965823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

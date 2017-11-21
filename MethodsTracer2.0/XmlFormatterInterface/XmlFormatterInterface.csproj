@@ -48,10 +48,6 @@
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\YamlFormatterInterface\YamlFormatterInterface.csproj">
-      <Project>{a71b040c-1435-4f44-9405-c57a1add9953}</Project>
-      <Name>YamlFormatterInterface</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
