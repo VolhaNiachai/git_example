@@ -25,7 +25,10 @@ namespace TestMethods
             YamlLoader yamlLoader = new YamlLoader();
             yamlLoader.LoadYaml("AboutYamlFormatter.dll");
             methods.UpperTestMethod();
-            methods.menu.ChooseFormat(methods.tracer, xmlLoader, jsonLoader, yamlLoader);
+            if (args[0].Equals("--h"))
+            {
+                methods.menu.ChooseFormat(methods.tracer, xmlLoader, jsonLoader, yamlLoader);
+            }
             Console.ReadKey();
     }
 
