@@ -41,10 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleResultFormatter.cs" />
+    <Compile Include="JsonLoader.cs" />
     <Compile Include="JsonResultFormatter.cs" />
-    <Compile Include="Loader.cs" />
+    <Compile Include="XmlLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlResultFormatter.cs" />
+    <Compile Include="YamlLoader.cs" />
     <Compile Include="YamlResultFormatter.cs" />
   </ItemGroup>
   <ItemGroup>

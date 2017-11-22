@@ -8,3 +8,9 @@ D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatt
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\MethodsTracer.pdb
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\XmlFormatterInterface.pdb
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\YamlFormatterInterface.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\ResultLoaderFormatter.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\ResultLoaderFormatter.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\obj\Debug\ResultLoaderFormatter.csprojResolveAssemblyReference.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\obj\Debug\ResultLoaderFormatter.csproj.CoreCompileInputs.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\obj\Debug\ResultLoaderFormatter.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\obj\Debug\ResultLoaderFormatter.pdb

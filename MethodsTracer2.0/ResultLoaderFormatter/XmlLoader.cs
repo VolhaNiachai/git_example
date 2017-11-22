@@ -9,12 +9,12 @@ using System.IO;
 
 namespace ResultLoaderFormatter
 {
-    public class Loader
+    public class XmlLoader
     {
-        public Assembly LoadedAssembly
+        public Assembly XmlLoadedAssembly
         {get;set;}
 
-        public void Load(string pathName)
+        public void LoadXml(string pathName)
         {
             bool checker = true;
             while (checker)
@@ -27,7 +27,7 @@ namespace ResultLoaderFormatter
                     {
                         throw new ArgumentNullException();
                     }
-                    LoadedAssembly = Assembly.LoadFrom(formatterName);
+                    XmlLoadedAssembly = Assembly.LoadFrom(formatterName);
                 }
                 catch(Exception)
                 {

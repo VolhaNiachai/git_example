@@ -5,14 +5,14 @@ Capacity: 4
 ICollection.Items: 
   - MethodsName: LostTestMethod
     MethodsTypeName: Methods
-    CurrentTime: 19
+    CurrentTime: 31
     QuantityOfParameters: 0
   - MethodsName: LowerTestMethod
     MethodsTypeName: Methods
-    CurrentTime: 30
+    CurrentTime: 47
     QuantityOfParameters: 0
   - MethodsName: UpperTestMethod
     MethodsTypeName: Methods
-    CurrentTime: 81
+    CurrentTime: 112
     QuantityOfParameters: 0
 ...

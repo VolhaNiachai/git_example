@@ -18,12 +18,14 @@ namespace TestMethods
     static void Main(string[] args)
     {
             Methods methods = new Methods();
-            Loader loader = new Loader();
-            loader.Load("AboutJsonFormatter.dll");
-            loader.Load("AboutYamlFormatter.dll");
-            loader.Load("AboutXmlFormatter.dll");
+            XmlLoader xmlLoader = new XmlLoader();
+            xmlLoader.LoadXml("AboutXmlFormatter.dll");
+            JsonLoader jsonLoader = new JsonLoader();
+            jsonLoader.LoadJson("AboutJsonFormatter.dll");
+            YamlLoader yamlLoader = new YamlLoader();
+            yamlLoader.LoadYaml("AboutYamlFormatter.dll");
             methods.UpperTestMethod();
-            methods.menu.ChooseFormat(methods.tracer, loader);
+            methods.menu.ChooseFormat(methods.tracer, xmlLoader, jsonLoader, yamlLoader);
             Console.ReadKey();
     }
 

@@ -3,6 +3,6 @@
   <thread id="1">
     <method MethodName="LostTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="31" />
     <method MethodName="LowerTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="47" />
-    <method MethodName="UpperTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="110" />
+    <method MethodName="UpperTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="103" />
   </thread>
 </root>

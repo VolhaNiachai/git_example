@@ -4,3 +4,9 @@ d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\bin\Debug\MethodsTracer.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\bin\Debug\JsonFormatterInterface.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\bin\Debug\MethodsTracer.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\AboutJsonFormatter.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\AboutJsonFormatter.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\obj\Debug\AboutJsonFormatter.csprojResolveAssemblyReference.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\obj\Debug\AboutJsonFormatter.csproj.CoreCompileInputs.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\obj\Debug\AboutJsonFormatter.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\AboutJsonFormatter\obj\Debug\AboutJsonFormatter.pdb
