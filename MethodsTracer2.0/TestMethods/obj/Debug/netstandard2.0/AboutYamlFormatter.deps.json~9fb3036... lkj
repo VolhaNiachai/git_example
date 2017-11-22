@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "0d6b66347ae2cbabb44fb82ad62b2ef075f0315e"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "AboutYamlFormatter/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "YamlDotNet": "4.2.3-pre0454",
+          "YamlFormatterInterface": "1.0.0"
+        },
+        "runtime": {
+          "AboutYamlFormatter.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "YamlDotNet/4.2.3-pre0454": {
+        "runtime": {
+          "lib/netstandard1.3/YamlDotNet.dll": {}
+        }
+      },
+      "MethodsTracer/1.0.0": {
+        "runtime": {
+          "MethodsTracer.dll": {}
+        }
+      },
+      "YamlFormatterInterface/1.0.0": {
+        "dependencies": {
+          "MethodsTracer": "1.0.0"
+        },
+        "runtime": {
+          "YamlFormatterInterface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AboutYamlFormatter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "YamlDotNet/4.2.3-pre0454": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bMMphxssYWvqH57XJulQuTPzQfhx8cbpINlZyc4chPLEd5g+bSh0dvAUpoBpX141kPGKxw0T6mPJkClPxtfwJw==",
+      "path": "yamldotnet/4.2.3-pre0454",
+      "hashPath": "yamldotnet.4.2.3-pre0454.nupkg.sha512"
+    },
+    "MethodsTracer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YamlFormatterInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
