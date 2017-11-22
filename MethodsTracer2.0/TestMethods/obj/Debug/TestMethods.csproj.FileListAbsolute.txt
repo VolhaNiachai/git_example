@@ -22,12 +22,3 @@ d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\bin\Deb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\bin\Debug\ITraceResultFormatter.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\bin\Debug\TraceResultFormatter.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\bin\Debug\JsonFormatterInterface.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\TestMethods.csprojResolveAssemblyReference.cache
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\TestMethods.csproj.CoreCompileInputs.cache
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\TestMethods.exe.config
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\TestMethods.exe
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\TestMethods.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\MethodsTracer.dll
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\XmlFormatterInterface.dll
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\MethodsTracer.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\XmlFormatterInterface.pdb

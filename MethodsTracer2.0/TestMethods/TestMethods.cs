@@ -6,6 +6,7 @@ using System.IO;
 using System.Reflection;
 using XmlFormatterInterface;
 using MethodsTracer;
+using ResultLoaderFormatter;
 
 namespace TestMethods
 {
@@ -17,8 +18,12 @@ namespace TestMethods
     static void Main(string[] args)
     {
             Methods methods = new Methods();
+            Loader loader = new Loader();
+            loader.Load("AboutJsonFormatter.dll");
+            loader.Load("AboutYamlFormatter.dll");
+            loader.Load("AboutXmlFormatter.dll");
             methods.UpperTestMethod();
-            methods.menu.ChooseFormat(methods.tracer);
+            methods.menu.ChooseFormat(methods.tracer, loader);
             Console.ReadKey();
     }
 

@@ -4,26 +4,24 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E9F0ABC-7316-47C7-A0D1-A3BA1AB7AF06}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>TestMethods</RootNamespace>
-    <AssemblyName>TestMethods</AssemblyName>
+    <ProjectGuid>{9CB663DE-5614-4708-8D52-EAF17CBA1B93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResultLoaderFormatter</RootNamespace>
+    <AssemblyName>ResultLoaderFormatter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>obj\Debug\</OutputPath>
+    <OutputPath>..\TestMethods\obj\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,12 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="TestMethods.cs" />
+    <Compile Include="ConsoleResultFormatter.cs" />
+    <Compile Include="JsonResultFormatter.cs" />
+    <Compile Include="Loader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="XmlResultFormatter.cs" />
+    <Compile Include="YamlResultFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JsonFormatterInterface\JsonFormatterInterface.csproj">
@@ -57,10 +55,6 @@
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ResultLoaderFormatter\ResultLoaderFormatter.csproj">
-      <Project>{9cb663de-5614-4708-8d52-eaf17cba1b93}</Project>
-      <Name>ResultLoaderFormatter</Name>
     </ProjectReference>
     <ProjectReference Include="..\XmlFormatterInterface\XmlFormatterInterface.csproj">
       <Project>{5a7a462c-8d94-45f9-8834-ae0fc8eb4f90}</Project>

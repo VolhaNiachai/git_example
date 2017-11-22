@@ -1,0 +1,10 @@
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\ResultLoaderFormatter.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\ResultLoaderFormatter.pdb
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\JsonFormatterInterface.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\MethodsTracer.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\XmlFormatterInterface.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\YamlFormatterInterface.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\JsonFormatterInterface.pdb
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\MethodsTracer.pdb
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\XmlFormatterInterface.pdb
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\ResultLoaderFormatter\bin\Debug\YamlFormatterInterface.pdb

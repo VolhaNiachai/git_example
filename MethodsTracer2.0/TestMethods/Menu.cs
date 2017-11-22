@@ -8,13 +8,14 @@ using TraceResultFormatter;
 using MethodsTracer;
 using JsonFormatterInterface;
 using YamlFormatterInterface;
+using ResultLoaderFormatter;
 
 
 namespace TestMethods
 {
     public class Menu
     {
-        public void ChooseFormat(Tracer tracer)
+        public void ChooseFormat(Tracer tracer, Loader loader)
         {
             Console.WriteLine("Press xml, concsole, json or yaml");
             string choosedFormat = Console.ReadLine();
@@ -22,7 +23,7 @@ namespace TestMethods
             {
                 case "xml":
                     XmlResultFormatter xmlResultFormatter = new XmlResultFormatter();
-                    xmlResultFormatter.GetXml(tracer);
+                    xmlResultFormatter.FormateToXml(tracer, loader.LoadedAssembly);
                     break;
                 case "console":
                     ConsoleResultFormatter consoleResultFormatter = new ConsoleResultFormatter();
@@ -30,11 +31,11 @@ namespace TestMethods
                     break;
                 case "json":
                     JsonResultFormatter jsonResultFormatter = new JsonResultFormatter();
-                    jsonResultFormatter.GetJson(tracer);
+                    jsonResultFormatter.FormateToJson(tracer, loader.LoadedAssembly);
                     break;
                 case "yaml":
                     YamlResultFormatter yamlResultFormatter = new YamlResultFormatter();
-                    yamlResultFormatter.GetYaml(tracer);
+                    yamlResultFormatter.FormateToYaml(tracer, loader.LoadedAssembly);
                     break;
                 default:
                     Console.WriteLine("Default");
