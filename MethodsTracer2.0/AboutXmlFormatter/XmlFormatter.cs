@@ -14,8 +14,6 @@ namespace AboutXmlFormatter
   {
     public void FormateToXml()
     {
-
-      List<TraceResult> Result = new List<TraceResult>(Tracer.GetInstance().Result);
       XmlSerializer serializer = new XmlSerializer(typeof(List<TraceResult>));
       StringBuilder emptyString = new StringBuilder();
       using (FileStream fileStream = new FileStream("Result.xml", FileMode.Create))
@@ -26,7 +24,7 @@ namespace AboutXmlFormatter
         thread.Add(new XAttribute("id", Thread.CurrentThread.ManagedThreadId.ToString()));
         xDocument.Add(root);
         root.Add(thread);
-        foreach (var item in Result)
+        foreach (var item in Tracer.Instance.Result)
         {
           var element = new XElement("method");
           element.Add(new XAttribute("MethodName", item.MethodsName));
@@ -38,7 +36,7 @@ namespace AboutXmlFormatter
         xDocument.Save(fileStream);
       }
     }
-    public void Go(string parameters)
+    public void Go(string parameters, string path)
     {
             FormateToXml();
     }

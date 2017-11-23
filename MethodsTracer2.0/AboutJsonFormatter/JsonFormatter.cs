@@ -13,19 +13,13 @@ namespace AboutJsonFormatter
 {
     public class JsonFormatter : IPlugin
     {
-        public void FormateToJson()
+        public void FormateToJson(TraceResult traceResult, string path)
          {
-            
-            File.WriteAllText(@"d:", JsonConvert.SerializeObject(Tracer.GetInstance().Result));
-             //using (StreamWriter streamWriter = new StreamWriter("ResultJson.json"))
-             //{
-             //   File.WriteAllText()
-             //    streamWriter.Write(JsonConvert.SerializeObject(Tracer.GetInstance().Result));
-             //}
+            File.WriteAllText(@path, JsonConvert.SerializeObject(traceResult));
          }
-        public void Go(string parameters)
+        public void Go(string parameters, string path)
         {
-            FormateToJson();
+            FormateToJson(Tracer.Instance.GetTraceResult(), path);
         }
 
         public string Name

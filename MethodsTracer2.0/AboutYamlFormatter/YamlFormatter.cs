@@ -8,17 +8,14 @@ namespace AboutYamlFormatter
 {
     public class YamlFormatter : IPlugin
     {
-        public void FormateToYaml()
+        public void FormateToYaml(TraceResult traceResult, string path)
         {
-            using (StreamWriter streamWriter = new StreamWriter("YamlResult.yaml"))
-            {
-                var serializer = new YamlSerializer();
-                streamWriter.Write(serializer.Serialize(Tracer.GetInstance().Result));
-            }
+            var serializer = new YamlSerializer();
+            File.WriteAllText(@path, serializer.Serialize(traceResult));
         }
-        public void Go(string parameters)
+        public void Go(string parameters, string path)
         {
-            FormateToYaml();
+            FormateToYaml(Tracer.Instance.GetTraceResult(), path);
         }
 
         public string Name

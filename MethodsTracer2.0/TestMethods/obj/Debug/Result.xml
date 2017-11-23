@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <thread id="1" />
+  <thread id="1">
+    <method MethodName="LostTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="19" />
+    <method MethodName="LowerTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="31" />
+    <method MethodName="UpperTestMethod" MethodsTypeName="Methods" QuantityOfParameters="0" TimeSpan="82" />
+  </thread>
 </root>

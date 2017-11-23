@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MethodsTracer;
 
 namespace LoaderOfPlagins
 {
@@ -11,6 +10,6 @@ namespace LoaderOfPlagins
     {
         string Name { get; }
         string Explanation { get; }
-        void Go(string patameters);
+        void Go(string patameters, string path);
     }
 }

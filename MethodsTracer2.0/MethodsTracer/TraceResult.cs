@@ -16,7 +16,5 @@ namespace MethodsTracer
     { get; set; }
     public long CurrentTime
     { get; set; }
-    // public List<TraceResult> ResultList
-    // { get; set; }
   }
 }
