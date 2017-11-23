@@ -5,21 +5,13 @@ VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMethods", "TestMethods\TestMethods.csproj", "{0E9F0ABC-7316-47C7-A0D1-A3BA1AB7AF06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlFormatterInterface", "XmlFormatterInterface\XmlFormatterInterface.csproj", "{5A7A462C-8D94-45F9-8834-AE0FC8EB4F90}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutXmlFormatter", "AboutXmlFormatter\AboutXmlFormatter.csproj", "{E238E9FF-9BF2-43C0-87DE-618B7FC40921}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsTracer", "MethodsTracer\MethodsTracer.csproj", "{B548E6BD-9641-418C-8258-7714F40B0C9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutJsonFormatter", "AboutJsonFormatter\AboutJsonFormatter.csproj", "{051A86D6-4E32-4E70-B6A4-E36C8562C4D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFormatterInterface", "JsonFormatterInterface\JsonFormatterInterface.csproj", "{2A7ACFB4-BECD-4C59-A812-680CB3A98469}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutYamlFormatter", "AboutYamlFormatter\AboutYamlFormatter.csproj", "{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlFormatterInterface", "YamlFormatterInterface\YamlFormatterInterface.csproj", "{E8D77030-65DE-4E9F-8F87-289D43965823}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultLoaderFormatter", "ResultLoaderFormatter\ResultLoaderFormatter.csproj", "{9CB663DE-5614-4708-8D52-EAF17CBA1B93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoaderOfPlugins", "PluginInterface\LoaderOfPlugins.csproj", "{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}"
 EndProject
@@ -33,10 +25,6 @@ Global
 		{0E9F0ABC-7316-47C7-A0D1-A3BA1AB7AF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E9F0ABC-7316-47C7-A0D1-A3BA1AB7AF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E9F0ABC-7316-47C7-A0D1-A3BA1AB7AF06}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A7A462C-8D94-45F9-8834-AE0FC8EB4F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A7A462C-8D94-45F9-8834-AE0FC8EB4F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A7A462C-8D94-45F9-8834-AE0FC8EB4F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A7A462C-8D94-45F9-8834-AE0FC8EB4F90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E238E9FF-9BF2-43C0-87DE-618B7FC40921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E238E9FF-9BF2-43C0-87DE-618B7FC40921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E238E9FF-9BF2-43C0-87DE-618B7FC40921}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,22 +37,10 @@ Global
 		{051A86D6-4E32-4E70-B6A4-E36C8562C4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051A86D6-4E32-4E70-B6A4-E36C8562C4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051A86D6-4E32-4E70-B6A4-E36C8562C4D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A7ACFB4-BECD-4C59-A812-680CB3A98469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A7ACFB4-BECD-4C59-A812-680CB3A98469}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A7ACFB4-BECD-4C59-A812-680CB3A98469}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A7ACFB4-BECD-4C59-A812-680CB3A98469}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C36B985-6CA6-49B3-A4F6-BBC88DE77A36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E8D77030-65DE-4E9F-8F87-289D43965823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8D77030-65DE-4E9F-8F87-289D43965823}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8D77030-65DE-4E9F-8F87-289D43965823}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8D77030-65DE-4E9F-8F87-289D43965823}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU

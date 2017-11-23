@@ -1,5 +1,4 @@
 ﻿using System;
-using YamlFormatterInterface;
 using System.IO;
 using MethodsTracer;
 using System.Yaml.Serialization;

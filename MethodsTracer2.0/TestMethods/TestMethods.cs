@@ -4,9 +4,7 @@ using System.Threading;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using XmlFormatterInterface;
 using MethodsTracer;
-using ResultLoaderFormatter;
 using LoaderOfPlagins;
 using System.Linq;
 using AboutJsonFormatter;
@@ -18,48 +16,48 @@ namespace TestMethods
     TraceResult traceResult = new TraceResult();
     Tracer tracer = Tracer.GetInstance();
     
-    static void Main(string[] args)
+static void Main(string[] args)
+{
+    JsonFormatter jsonFormatter = new JsonFormatter();
+    Methods methods = new Methods();
+    PluginLoader pluginloader = new PluginLoader();
+    try
     {
-            JsonFormatter jsonFormatter = new JsonFormatter();
-            Methods methods = new Methods();
-            PluginLoader pluginloader = new PluginLoader();
-            try
+        PluginLoader loader = new PluginLoader();
+        loader.LoadPlugins();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(string.Format("Plugins couldn't be loaded: {0}", e.Message));
+        Console.WriteLine("Press any key to exit");
+        Console.ReadKey();
+        Environment.Exit(0);
+    }
+    while (true)
+    {
+        try
+        {
+            string inputedLine = Console.ReadLine();
+            string formatName = inputedLine.Remove(0, 4);
+            if (inputedLine == "exit")
             {
-                PluginLoader loader = new PluginLoader();
-                loader.LoadPlugins();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(string.Format("Plugins couldn't be loaded: {0}", e.Message));
-                Console.WriteLine("Press any key to exit");
-                Console.ReadKey();
                 Environment.Exit(0);
             }
-            while (true)
+            foreach(IPlugin plugin in PluginLoader.Plugins)
             {
-                try
+                if (inputedLine.Contains("--f") && plugin.Name.Equals(formatName))
                 {
-                    string line = Console.ReadLine();
-                    string name = line.Split(new char[] { ' ' }).FirstOrDefault();
-                    if (line == "exit")
-                    {
-                        Environment.Exit(0);
-                    }
-                    foreach(IPlugin plugin in PluginLoader.Plugins)
-                    {
-                        if (plugin.Name.Equals(name))
-                        {
-                            string parameters = line.Replace(string.Format("{0} ", name), string.Empty);
-                            plugin.Go(parameters);
-                        }
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(string.Format("Caught exception: {0}", e.Message));
+                    string parameters = inputedLine[1].ToString().Replace(string.Format("{0} ", formatName), string.Empty);
+                    plugin.Go(parameters);
                 }
             }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(string.Format("Caught exception: {0}", e.Message));
+        }
     }
+}
 
         public TimeSpan timeSpan;
 

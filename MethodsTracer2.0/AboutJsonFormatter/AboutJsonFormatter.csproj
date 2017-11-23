@@ -54,10 +54,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JsonFormatterInterface\JsonFormatterInterface.csproj">
-      <Project>{2a7acfb4-becd-4c59-a812-680cb3a98469}</Project>
-      <Name>JsonFormatterInterface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>

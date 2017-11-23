@@ -55,10 +55,6 @@
       <Project>{b4f8b7a0-a511-4a84-bc24-cdd7b480cb5d}</Project>
       <Name>LoaderOfPlugins</Name>
     </ProjectReference>
-    <ProjectReference Include="..\YamlFormatterInterface\YamlFormatterInterface.csproj">
-      <Project>{e8d77030-65de-4e9f-8f87-289d43965823}</Project>
-      <Name>YamlFormatterInterface</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

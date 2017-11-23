@@ -50,21 +50,9 @@
     <Compile Include="YamlResultFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JsonFormatterInterface\JsonFormatterInterface.csproj">
-      <Project>{2a7acfb4-becd-4c59-a812-680cb3a98469}</Project>
-      <Name>JsonFormatterInterface</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\XmlFormatterInterface\XmlFormatterInterface.csproj">
-      <Project>{5a7a462c-8d94-45f9-8834-ae0fc8eb4f90}</Project>
-      <Name>XmlFormatterInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YamlFormatterInterface\YamlFormatterInterface.csproj">
-      <Project>{e8d77030-65de-4e9f-8f87-289d43965823}</Project>
-      <Name>YamlFormatterInterface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

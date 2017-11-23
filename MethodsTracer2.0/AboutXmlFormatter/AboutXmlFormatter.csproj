@@ -52,10 +52,6 @@
       <Project>{b4f8b7a0-a511-4a84-bc24-cdd7b480cb5d}</Project>
       <Name>LoaderOfPlugins</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XmlFormatterInterface\XmlFormatterInterface.csproj">
-      <Project>{5a7a462c-8d94-45f9-8834-ae0fc8eb4f90}</Project>
-      <Name>XmlFormatterInterface</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
