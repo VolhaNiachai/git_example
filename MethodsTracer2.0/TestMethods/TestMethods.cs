@@ -43,6 +43,12 @@ namespace TestMethods
                     {
                         ConsoleOutput consoleOutPut = new ConsoleOutput();
                         consoleOutPut.OutputToConsole();
+                        continue;
+                    }
+                    if (inputedLine.Contains("--f") && (!inputedLine.Contains("--o")))
+                    {
+                        Console.WriteLine("Enter path");
+                        continue;
                     }
                     string[] inputedLines = inputedLine.Split().ToArray();
                     string formatName = String.Empty;
@@ -59,7 +65,8 @@ namespace TestMethods
                     {
                         if (plugin.Name.Equals(formatName))             
                         {
-                            if(inputedLine.Contains("--f") && inputedLine.Contains("--o"))
+                           
+                                if (inputedLine.Contains("--f") && inputedLine.Contains("--o"))
                             {
                                 string path = inputedLines[3];
                                 string parameters = inputedLine[1].ToString().Replace(string.Format("{0} ", formatName), string.Empty);
