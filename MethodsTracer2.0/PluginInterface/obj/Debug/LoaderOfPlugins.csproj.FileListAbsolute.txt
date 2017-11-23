@@ -1,0 +1,8 @@
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginInterface\bin\Debug\PluginInterface.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginInterface\bin\Debug\PluginInterface.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\PluginInterface.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\PluginInterface.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginInterface\obj\Debug\LoaderOfPlugins.csprojResolveAssemblyReference.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginInterface\obj\Debug\LoaderOfPlugins.csproj.CoreCompileInputs.cache
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginInterface\obj\Debug\PluginInterface.dll
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginInterface\obj\Debug\PluginInterface.pdb

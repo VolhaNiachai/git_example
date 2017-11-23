@@ -8,18 +8,40 @@ using System.Runtime.Serialization;
 using JsonFormatterInterface;
 using MethodsTracer;
 using Newtonsoft.Json;
+using LoaderOfPlagins;
 
 namespace AboutJsonFormatter
 {
-    public class JsonFormatter : IJsonFormatter
+    public class JsonFormatter : IPlugin
     {
-        public void FormateToJson(Tracer tracer)
+        public void FormateToJson()
+         {
+             Tracer.GetInstance().GetTraceResult();
+             using (StreamWriter streamWriter = new StreamWriter("ResultJson.json"))
+             {
+                 streamWriter.Write(JsonConvert.SerializeObject(Tracer.GetInstance().Result));
+             }
+         }
+        public void Go(string parameters)
         {
-            Tracer.GetInstance().GetTraceResult();
-            using (StreamWriter streamWriter = new StreamWriter("ResultJson.json"))
+            FormateToJson();
+        }
+
+        public string Name
+        {
+            get
             {
-                streamWriter.Write(JsonConvert.SerializeObject(tracer.Result));
+                return "json";
             }
         }
+
+        public string Explanation
+        {
+            get
+            {
+                return "This plugin formates the file to json";
+            }
+        }
+
     }
 }

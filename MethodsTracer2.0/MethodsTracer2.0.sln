@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlFormatterInterface", "Y
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultLoaderFormatter", "ResultLoaderFormatter\ResultLoaderFormatter.csproj", "{9CB663DE-5614-4708-8D52-EAF17CBA1B93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoaderOfPlugins", "PluginInterface\LoaderOfPlugins.csproj", "{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CB663DE-5614-4708-8D52-EAF17CBA1B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F8B7A0-A511-4A84-BC24-CDD7B480CB5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

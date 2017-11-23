@@ -7,6 +7,9 @@ using System.Reflection;
 using XmlFormatterInterface;
 using MethodsTracer;
 using ResultLoaderFormatter;
+using LoaderOfPlagins;
+using System.Linq;
+using AboutJsonFormatter;
 
 namespace TestMethods
 {
@@ -14,25 +17,51 @@ namespace TestMethods
   {
     TraceResult traceResult = new TraceResult();
     Tracer tracer = Tracer.GetInstance();
-    Menu menu = new Menu();
+    
     static void Main(string[] args)
     {
+            JsonFormatter jsonFormatter = new JsonFormatter();
             Methods methods = new Methods();
-            XmlLoader xmlLoader = new XmlLoader();
-            xmlLoader.LoadXml("AboutXmlFormatter.dll");
-            JsonLoader jsonLoader = new JsonLoader();
-            jsonLoader.LoadJson("AboutJsonFormatter.dll");
-            YamlLoader yamlLoader = new YamlLoader();
-            yamlLoader.LoadYaml("AboutYamlFormatter.dll");
-            methods.UpperTestMethod();
-            if (args[0].Equals("--h"))
+            PluginLoader pluginloader = new PluginLoader();
+            try
             {
-                methods.menu.ChooseFormat(methods.tracer, xmlLoader, jsonLoader, yamlLoader);
+                PluginLoader loader = new PluginLoader();
+                loader.LoadPlugins();
             }
-            Console.ReadKey();
+            catch (Exception e)
+            {
+                Console.WriteLine(string.Format("Plugins couldn't be loaded: {0}", e.Message));
+                Console.WriteLine("Press any key to exit");
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
+            while (true)
+            {
+                try
+                {
+                    string line = Console.ReadLine();
+                    string name = line.Split(new char[] { ' ' }).FirstOrDefault();
+                    if (line == "exit")
+                    {
+                        Environment.Exit(0);
+                    }
+                    foreach(IPlugin plugin in PluginLoader.Plugins)
+                    {
+                        if (plugin.Name.Equals(name))
+                        {
+                            string parameters = line.Replace(string.Format("{0} ", name), string.Empty);
+                            plugin.Go(parameters);
+                        }
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(string.Format("Caught exception: {0}", e.Message));
+                }
+            }
     }
 
-    public TimeSpan timeSpan;
+        public TimeSpan timeSpan;
 
     public void UpperTestMethod()
     {

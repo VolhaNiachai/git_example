@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
     <Compile Include="TestMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,6 +49,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AboutJsonFormatter\AboutJsonFormatter.csproj">
+      <Project>{051a86d6-4e32-4e70-b6a4-e36c8562c4d1}</Project>
+      <Name>AboutJsonFormatter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AboutXmlFormatter\AboutXmlFormatter.csproj">
+      <Project>{e238e9ff-9bf2-43c0-87de-618b7fc40921}</Project>
+      <Name>AboutXmlFormatter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AboutYamlFormatter\AboutYamlFormatter.csproj">
+      <Project>{0c36b985-6ca6-49b3-a4f6-bbc88de77a36}</Project>
+      <Name>AboutYamlFormatter</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JsonFormatterInterface\JsonFormatterInterface.csproj">
       <Project>{2a7acfb4-becd-4c59-a812-680cb3a98469}</Project>
       <Name>JsonFormatterInterface</Name>
@@ -57,6 +68,10 @@
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PluginInterface\LoaderOfPlugins.csproj">
+      <Project>{b4f8b7a0-a511-4a84-bc24-cdd7b480cb5d}</Project>
+      <Name>LoaderOfPlugins</Name>
     </ProjectReference>
     <ProjectReference Include="..\ResultLoaderFormatter\ResultLoaderFormatter.csproj">
       <Project>{9cb663de-5614-4708-8d52-eaf17cba1b93}</Project>

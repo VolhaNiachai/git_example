@@ -6,18 +6,16 @@ using System.Threading;
 using System.Text;
 using System.IO;
 using System.Xml.Linq;
-using System.Linq;
-
-using XmlFormatterInterface;
+using LoaderOfPlagins;
 
 namespace AboutXmlFormatter
 {
-  public class XmlFormatter : IXmlFormatter
+  public class XmlFormatter : IPlugin
   {
-    public void FormateToXml(Tracer tracer)
+    public void FormateToXml()
     {
 
-      List<TraceResult> Result = new List<TraceResult>(tracer.Result);
+      List<TraceResult> Result = new List<TraceResult>(Tracer.GetInstance().Result);
       XmlSerializer serializer = new XmlSerializer(typeof(List<TraceResult>));
       StringBuilder emptyString = new StringBuilder();
       using (FileStream fileStream = new FileStream("Result.xml", FileMode.Create))
@@ -40,5 +38,25 @@ namespace AboutXmlFormatter
         xDocument.Save(fileStream);
       }
     }
-  }
+    public void Go(string parameters)
+    {
+            FormateToXml();
+    }
+
+    public string Name
+    {
+        get
+        {
+            return "xml";
+        }
+    }
+
+    public string Explanation
+    {
+        get
+        {
+            return "This plugin formates the file to xml";
+        }
+    }
+    }
 }

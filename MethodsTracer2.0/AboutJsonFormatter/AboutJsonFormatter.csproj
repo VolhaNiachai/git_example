@@ -62,6 +62,10 @@
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PluginInterface\LoaderOfPlugins.csproj">
+      <Project>{b4f8b7a0-a511-4a84-bc24-cdd7b480cb5d}</Project>
+      <Name>LoaderOfPlugins</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
