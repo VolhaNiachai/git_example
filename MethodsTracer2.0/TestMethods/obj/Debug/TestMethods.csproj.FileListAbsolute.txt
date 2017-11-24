@@ -37,8 +37,3 @@ d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Deb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\AboutJsonFormatter.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\Newtonsoft.Json.xml
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\AboutJsonFormatter.dll
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\YamlSerializer.dll
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\AboutXmlFormatter.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\AboutYamlFormatter.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\PluginInterface.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\YamlSerializer.xml

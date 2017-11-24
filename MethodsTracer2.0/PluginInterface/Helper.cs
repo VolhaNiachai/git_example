@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoaderOfPlagins
 {
-    class Helper:IPlugin
+    public class Helper:IPlugin
     {
         public void Go(string parameters, string path)
         {
