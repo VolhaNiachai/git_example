@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E9F0ABC-7316-47C7-A0D1-A3BA1AB7AF06}</ProjectGuid>
+    <ProjectGuid>{792AD1C2-C902-4558-ABFC-6EADF4B95E9C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TestMethods</RootNamespace>
     <AssemblyName>TestMethods</AssemblyName>
@@ -32,17 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CommandLine, Version=2.0.275.0, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
-      <HintPath>..\packages\CommandLineParser.2.1.1-beta\lib\net45\CommandLine.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Console, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Console.4.0.0-rc2-24027\lib\net46\System.Console.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="System.Reflection.TypeExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Reflection.TypeExtensions.4.1.0-rc2-24027\lib\net46\System.Reflection.TypeExtensions.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,29 +46,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AboutJsonFormatter\AboutJsonFormatter.csproj">
-      <Project>{051a86d6-4e32-4e70-b6a4-e36c8562c4d1}</Project>
-      <Name>AboutJsonFormatter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AboutXmlFormatter\AboutXmlFormatter.csproj">
-      <Project>{e238e9ff-9bf2-43c0-87de-618b7fc40921}</Project>
-      <Name>AboutXmlFormatter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AboutYamlFormatter\AboutYamlFormatter.csproj">
-      <Project>{0c36b985-6ca6-49b3-a4f6-bbc88de77a36}</Project>
-      <Name>AboutYamlFormatter</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PluginInterface\LoaderOfPlugins.csproj">
-      <Project>{b4f8b7a0-a511-4a84-bc24-cdd7b480cb5d}</Project>
-      <Name>LoaderOfPlugins</Name>
+    <ProjectReference Include="..\PluginLoader\PluginLoader.csproj">
+      <Project>{b7c19ee7-7085-4d32-9c05-1499860faf89}</Project>
+      <Name>PluginLoader</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,13 +8,9 @@ namespace MethodsTracer
 {
   public class TraceResult
   {
-    public string MethodsName
-    { get; set; }
-    public string MethodsTypeName
-    { get; set; }
-    public int QuantityOfParameters
-    { get; set; }
-    public long CurrentTime
-    { get; set; }
+    public string MethodsName { get; set; }
+    public string MethodsTypeName { get; set; }
+    public int QuantityOfParameters { get; set; }
+    public long CurrentTime { get; set; }
   }
 }
