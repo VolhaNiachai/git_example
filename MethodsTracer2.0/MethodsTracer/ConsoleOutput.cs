@@ -14,10 +14,10 @@ namespace MethodsTracer
         {
             for (int i = 0; i < Tracer.Instance.Result.Count; i++)
             {
-                stringBuilder.Append(Tracer.Instance.Result[i].MethodsName);
-                stringBuilder.Append(Tracer.Instance.Result[i].MethodsTypeName);
-                stringBuilder.Append(Tracer.Instance.Result[i].QuantityOfParameters);
-                stringBuilder.Append(Tracer.Instance.Result[i].CurrentTime);
+                stringBuilder.AppendLine(Tracer.Instance.Result[i].MethodsName);
+                stringBuilder.AppendLine(Tracer.Instance.Result[i].MethodsTypeName);
+                stringBuilder.AppendLine(Tracer.Instance.Result[i].QuantityOfParameters.ToString());
+                stringBuilder.AppendLine(Tracer.Instance.Result[i].CurrentTime.ToString());
                 stringBuilder.Append("\n");
             }
             Console.WriteLine(stringBuilder);
