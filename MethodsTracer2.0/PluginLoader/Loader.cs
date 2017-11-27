@@ -10,12 +10,11 @@ namespace PluginLoader
 {
     public class Loader
     {
-        public static List<IPlugin> Plugins
-        { get; set; }
+        public static List<IFormatPlugin> Plugins { get; set; }
 
         public void LoadPlugins()
         {
-            Plugins = new List<IPlugin>();
+            Plugins = new List<IFormatPlugin>();
 
             if (Directory.Exists(Constants.Foldername))
             {
@@ -28,16 +27,18 @@ namespace PluginLoader
                     }
                 }
             }
-            Type interfaceType = typeof(IPlugin);
+        }
+        public void CollectPlugins()
+        {
+            Type interfaceType = typeof(IFormatPlugin);
             Type[] types = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(a => a.GetTypes())
                 .Where(p => interfaceType.IsAssignableFrom(p) && p.IsClass)
                 .ToArray();
             foreach (Type type in types)
             {
-                Plugins.Add((IPlugin)Activator.CreateInstance(type));
+                Plugins.Add((IFormatPlugin)Activator.CreateInstance(type));
             }
         }
-
     }
 }

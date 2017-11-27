@@ -8,10 +8,9 @@ namespace MethodsTracer
 {
     public class ConsoleOutput
     {
-        StringBuilder stringBuilder = new StringBuilder();
-
         public void OutputToConsole()
         {
+            StringBuilder stringBuilder = new StringBuilder();
             for (int i = 0; i < Tracer.Instance.Result.Count; i++)
             {
                 stringBuilder.AppendLine(Tracer.Instance.Result[i].MethodsName);
@@ -24,4 +23,4 @@ namespace MethodsTracer
         }
     }
 }
-    
+

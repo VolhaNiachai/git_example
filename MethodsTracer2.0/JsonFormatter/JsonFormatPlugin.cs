@@ -11,7 +11,7 @@ using PluginLoader;
 
 namespace JsonFormatter
 {
-    public class JsonPluginFormat : IPlugin
+    public class JsonFormatPlugin : IFormatPlugin
     {
         public void Format(string path)
         {

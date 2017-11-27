@@ -7,7 +7,7 @@ using MethodsTracer;
 
 namespace PluginLoader
 {
-    public interface IPlugin
+    public interface IFormatPlugin
     {
         string Name { get; }
         string Explanation { get; }

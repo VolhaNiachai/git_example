@@ -10,7 +10,7 @@ using PluginLoader;
 
 namespace XmlFormatter
 {
-    public class XmlPluginFormat : IPlugin
+    public class XmlFormatPlugin : IFormatPlugin
     {
         public void Format(string path)
         {

@@ -18,6 +18,7 @@ namespace TestMethods
             {
                 Loader loader = new Loader();
                 loader.LoadPlugins();
+                loader.CollectPlugins();
             }
             catch (Exception e)
             {

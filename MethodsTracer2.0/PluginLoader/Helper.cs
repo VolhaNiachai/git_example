@@ -12,7 +12,7 @@ namespace PluginLoader
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("Following plugins are loaded: ");
-            foreach (IPlugin plugin in Loader.Plugins)
+            foreach (IFormatPlugin plugin in Loader.Plugins)
             {
                 stringBuilder.AppendLine(plugin.Name);
                 stringBuilder.AppendLine(plugin.Explanation);

@@ -6,7 +6,7 @@ using PluginLoader;
 
 namespace YamlFormatter
 {
-    public class YamlPluginFormat : IPlugin
+    public class YamlFormatPlugin : IFormatPlugin
     {
         public void Format(string path)
         {
