@@ -11,7 +11,7 @@ namespace YamlFormatter
         public void Format(string path)
         {
             var serializer = new YamlSerializer();
-            File.WriteAllText(@path, serializer.Serialize(Tracer.Instance.Result));
+            File.WriteAllText(@path, serializer.Serialize(Tracer.GetInstance().Result));
         }
         public string Name
         {

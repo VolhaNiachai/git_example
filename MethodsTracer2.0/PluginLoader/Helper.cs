@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace PluginLoader
 {
-    public class Helper
+    public static class Helper
     {
-        public void Help()
+        public static void Help(List<IFormatPlugin> Plugins)
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("Following plugins are loaded: ");
-            foreach (IFormatPlugin plugin in Loader.Plugins)
+            foreach (IFormatPlugin plugin in Plugins)
             {
                 stringBuilder.AppendLine(plugin.Name);
                 stringBuilder.AppendLine(plugin.Explanation);

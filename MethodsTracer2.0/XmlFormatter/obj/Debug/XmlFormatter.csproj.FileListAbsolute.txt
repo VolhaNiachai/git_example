@@ -100,9 +100,9 @@ D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\bin\De
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\bin\Debug\PluginLoader.dll
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\bin\Debug\MethodsTracer.pdb
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\bin\Debug\PluginLoader.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\obj\Debug\XmlFormatter.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\XmlFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\XmlFormatter.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\obj\Debug\XmlFormatter.csprojResolveAssemblyReference.cache
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\obj\Debug\XmlFormatter.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\obj\Debug\XmlFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\XmlFormatter\obj\Debug\XmlFormatter.pdb

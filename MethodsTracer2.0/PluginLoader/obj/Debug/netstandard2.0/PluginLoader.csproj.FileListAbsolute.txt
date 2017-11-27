@@ -6,12 +6,12 @@ d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\bin\De
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethod\obj\Debug\netstandard2.0\PluginLoader.deps.json
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethod\obj\Debug\netstandard2.0\PluginLoader.dll
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethod\obj\Debug\netstandard2.0\PluginLoader.pdb
-D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\netstandard2.0\PluginLoader.deps.json
-D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\netstandard2.0\PluginLoader.dll
-D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\netstandard2.0\PluginLoader.pdb
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.csprojResolveAssemblyReference.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.AssemblyInfoInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.AssemblyInfo.cs
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.csprojResolveAssemblyReference.cache
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\netstandard2.0\PluginLoader.deps.json
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\netstandard2.0\PluginLoader.dll
+D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\netstandard2.0\PluginLoader.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\PluginLoader\obj\Debug\netstandard2.0\PluginLoader.pdb

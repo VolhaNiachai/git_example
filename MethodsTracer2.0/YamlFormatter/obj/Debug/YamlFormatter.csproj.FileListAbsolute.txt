@@ -104,9 +104,9 @@ D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\bin\D
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\bin\Debug\YamlSerializer.xml
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethod\obj\Debug\YamlFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethod\obj\Debug\YamlFormatter.pdb
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\obj\Debug\YamlFormatter.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\YamlFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\YamlFormatter.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\obj\Debug\YamlFormatter.csprojResolveAssemblyReference.cache
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\obj\Debug\YamlFormatter.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\obj\Debug\YamlFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\YamlFormatter\obj\Debug\YamlFormatter.pdb

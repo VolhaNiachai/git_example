@@ -11,12 +11,12 @@ namespace MethodsTracer
         public void OutputToConsole()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            for (int i = 0; i < Tracer.Instance.Result.Count; i++)
+            for (int i = 0; i < Tracer.GetInstance().Result.Count; i++)
             {
-                stringBuilder.AppendLine(Tracer.Instance.Result[i].MethodsName);
-                stringBuilder.AppendLine(Tracer.Instance.Result[i].MethodsTypeName);
-                stringBuilder.AppendLine(Tracer.Instance.Result[i].QuantityOfParameters.ToString());
-                stringBuilder.AppendLine(Tracer.Instance.Result[i].CurrentTime.ToString());
+                stringBuilder.AppendLine(Tracer.GetInstance().Result[i].MethodsName);
+                stringBuilder.AppendLine(Tracer.GetInstance().Result[i].MethodsTypeName);
+                stringBuilder.AppendLine(Tracer.GetInstance().Result[i].QuantityOfParameters.ToString());
+                stringBuilder.AppendLine(Tracer.GetInstance().Result[i].CurrentTime.ToString());
                 stringBuilder.Append("\n");
             }
             Console.WriteLine(stringBuilder);

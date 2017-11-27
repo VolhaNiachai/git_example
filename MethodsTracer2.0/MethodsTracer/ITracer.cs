@@ -9,6 +9,5 @@ namespace MethodsTracer
   {
     void StartTrace();
     void StopTrace();
-    TraceResult GetTraceResult();
   }
 }

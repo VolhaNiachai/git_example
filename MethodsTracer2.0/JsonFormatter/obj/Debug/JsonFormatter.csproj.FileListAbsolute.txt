@@ -102,9 +102,9 @@ D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\bin\D
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\bin\Debug\MethodsTracer.pdb
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\bin\Debug\PluginLoader.pdb
 D:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\bin\Debug\Newtonsoft.Json.xml
+d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\obj\Debug\JsonFormatter.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\JsonFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\TestMethods\obj\Debug\JsonFormatter.pdb
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\obj\Debug\JsonFormatter.csprojResolveAssemblyReference.cache
-d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\obj\Debug\JsonFormatter.csproj.CoreCompileInputs.cache
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\obj\Debug\JsonFormatter.dll
 d:\GodelMasteryLabs\git-project\git-example\MethodsTracer2.0\JsonFormatter\obj\Debug\JsonFormatter.pdb

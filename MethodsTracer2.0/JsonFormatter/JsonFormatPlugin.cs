@@ -15,7 +15,7 @@ namespace JsonFormatter
     {
         public void Format(string path)
         {
-            File.WriteAllText(@path, JsonConvert.SerializeObject(Tracer.Instance.Result));
+            File.WriteAllText(@path, JsonConvert.SerializeObject(Tracer.GetInstance().Result));
         }
         public string Name
         {

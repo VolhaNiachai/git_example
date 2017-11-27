@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.Threading;
 using MethodsTracer;
 using PluginLoader;
-using System.Linq;
 
 namespace TestMethods
 {
@@ -12,6 +11,7 @@ namespace TestMethods
         static void Main(string[] args)
         {
             Methods methods = new Methods();
+            Tracer.GetInstance();
             Console.WriteLine("This app is for transform document to xml, json, yaml formats");
             methods.UpperTestMethod();
             try
@@ -44,8 +44,8 @@ namespace TestMethods
                         }
                         if ((args[0] == "help") || (args[0] == "--h"))
                         {
-                            Helper helper = new Helper();
-                            helper.Help();
+                            //Helper helper = new Helper();
+                            Helper.Help(Loader.Plugins);
                             break;
                         }
                     }
@@ -77,7 +77,7 @@ namespace TestMethods
                     }
                     checker = false;
                 }
-                catch (ArgumentNullException e)
+                catch (ArgumentNullException)
                 {
                     Console.WriteLine("Enter any command");
                     break;
@@ -93,32 +93,29 @@ namespace TestMethods
 
         public void UpperTestMethod()
         {
-            Tracer.Instance.StartTrace();
-            Stopwatch currentTime = Tracer.Instance.Timer;
+            Tracer.GetInstance().StartTrace();
+            Stopwatch currentTime = Tracer.GetInstance().Timer;
             Thread.Sleep(50);
             LowerTestMethod();
-            Tracer.Instance.Timer = currentTime;
-            Tracer.Instance.StopTrace();
-            Tracer.Instance.GetTraceResult();
+            Tracer.GetInstance().Timer = currentTime;
+            Tracer.GetInstance().StopTrace();
         }
         public void LowerTestMethod()
         {
-            Tracer.Instance.StartTrace();
-            Stopwatch currentTime = Tracer.Instance.Timer;
+            Tracer.GetInstance().StartTrace();
+            Stopwatch currentTime = Tracer.GetInstance().Timer;
             Thread.Sleep(10);
             LostTestMethod();
-            Tracer.Instance.Timer = currentTime;
-            Tracer.Instance.StopTrace();
-            Tracer.Instance.GetTraceResult();
+            Tracer.GetInstance().Timer = currentTime;
+            Tracer.GetInstance().StopTrace();
         }
         public void LostTestMethod()
         {
-            Tracer.Instance.StartTrace();
-            Stopwatch currentTime = Tracer.Instance.Timer;
+            Tracer.GetInstance().StartTrace();
+            Stopwatch currentTime = Tracer.GetInstance().Timer;
             Thread.Sleep(18);
-            Tracer.Instance.Timer = currentTime;
-            Tracer.Instance.StopTrace();
-            Tracer.Instance.GetTraceResult();
+            Tracer.GetInstance().Timer = currentTime;
+            Tracer.GetInstance().StopTrace();
         }
     }
 }

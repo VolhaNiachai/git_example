@@ -24,7 +24,7 @@ namespace XmlFormatter
                 thread.Add(new XAttribute("id", Thread.CurrentThread.ManagedThreadId.ToString()));
                 xDocument.Add(root);
                 root.Add(thread);
-                foreach (var item in Tracer.Instance.Result)
+                foreach (var item in Tracer.GetInstance().Result)
                 {
                     var element = new XElement("method");
                     element.Add(new XAttribute("MethodName", item.MethodsName));

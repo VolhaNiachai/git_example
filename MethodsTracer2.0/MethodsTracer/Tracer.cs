@@ -5,12 +5,19 @@ namespace MethodsTracer
 {
     public class Tracer : ITracer
     {
-        public List<TraceResult> Result = new List<TraceResult>();
+        public List<TraceResult> Result { get; private set; }
         private static Tracer instance = null;
-
-        public static Tracer Instance => instance ?? (instance = new Tracer());
-
         public Stopwatch Timer { get; set; }
+
+        public static Tracer GetInstance()
+        {
+            if(instance == null)
+            {
+                instance = new Tracer();
+                GetInstance().Result = new List<TraceResult>();
+            }
+            return instance;
+        }
 
         public void StartTrace()
         {
@@ -21,9 +28,10 @@ namespace MethodsTracer
         public void StopTrace()
         {
             Timer.Stop();
+            GetTraceResult();
         }
 
-        public TraceResult GetTraceResult()
+        private void GetTraceResult()
         {
             StackTrace stackTrace = new StackTrace();
             TraceResult result = new TraceResult();
@@ -33,7 +41,6 @@ namespace MethodsTracer
             result.QuantityOfParameters = stackTrace.GetFrame(1).GetMethod().GetParameters().Length;
             result.CurrentTime = Timer.ElapsedMilliseconds;
             Result.Add(result);
-            return result;
         }
     }
 }
