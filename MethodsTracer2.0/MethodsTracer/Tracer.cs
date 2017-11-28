@@ -11,10 +11,9 @@ namespace MethodsTracer
 
         public static Tracer GetInstance()
         {
-            if(instance == null)
+            if (instance == null)
             {
-                instance = new Tracer();
-                GetInstance().Result = new List<TraceResult>();
+                instance = new Tracer() { Result = new List<TraceResult>() };
             }
             return instance;
         }
