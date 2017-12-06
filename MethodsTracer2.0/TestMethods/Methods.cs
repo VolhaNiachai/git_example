@@ -32,7 +32,7 @@ namespace TestMethods
             {
                 try
                 {
-                    if(args.Length == 0)
+                    if (args.Length == 0)
                     {
                         throw new ArgumentNullException();
                     }
@@ -44,7 +44,6 @@ namespace TestMethods
                         }
                         if ((args[0] == "help") || (args[0] == "--h"))
                         {
-                            //Helper helper = new Helper();
                             Helper.Help(Loader.Plugins);
                             break;
                         }
@@ -80,11 +79,12 @@ namespace TestMethods
                 catch (ArgumentNullException)
                 {
                     Console.WriteLine("Enter any command");
-                    break;
+                    continue;
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     Console.WriteLine(string.Format("Caught exception: {0}", e.Message));
+                    continue;
                 }
             }
         }

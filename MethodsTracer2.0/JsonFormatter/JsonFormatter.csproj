@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F90679D3-2951-4284-8997-33892365BADB}</ProjectGuid>
+    <ProjectGuid>{97BF2F3B-9184-4F20-9AE2-A843B904E720}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JsonFormatter</RootNamespace>
@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\TestMethods\Plugins\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1-beta1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,8 +52,12 @@
       <Name>MethodsTracer</Name>
     </ProjectReference>
     <ProjectReference Include="..\PluginLoader\PluginLoader.csproj">
-      <Project>{b7c19ee7-7085-4d32-9c05-1499860faf89}</Project>
+      <Project>{d5e1f8d7-f27e-497c-860e-b0f67d55cb6b}</Project>
       <Name>PluginLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestMethods\TestMethods.csproj">
+      <Project>{46ecffb8-cfa5-4b26-b37e-4a3dcd96ed07}</Project>
+      <Name>TestMethods</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

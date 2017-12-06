@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\TestMethods\Plugins\</OutputPath>
+    <OutputPath>..\TestMethods\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -49,7 +49,7 @@
       <Name>MethodsTracer</Name>
     </ProjectReference>
     <ProjectReference Include="..\PluginLoader\PluginLoader.csproj">
-      <Project>{b7c19ee7-7085-4d32-9c05-1499860faf89}</Project>
+      <Project>{d5e1f8d7-f27e-497c-860e-b0f67d55cb6b}</Project>
       <Name>PluginLoader</Name>
     </ProjectReference>
   </ItemGroup>

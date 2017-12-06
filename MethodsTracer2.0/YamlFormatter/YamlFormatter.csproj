@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6648E193-14E9-4255-A4B9-D33883B108CC}</ProjectGuid>
+    <ProjectGuid>{37DE944B-D4A5-4882-B980-2094164510AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>YamlFormatter</RootNamespace>
@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\TestMethods\Plugins\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -47,17 +47,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
       <Project>{b548e6bd-9641-418c-8258-7714f40b0c9f}</Project>
       <Name>MethodsTracer</Name>
     </ProjectReference>
     <ProjectReference Include="..\PluginLoader\PluginLoader.csproj">
-      <Project>{b7c19ee7-7085-4d32-9c05-1499860faf89}</Project>
+      <Project>{d5e1f8d7-f27e-497c-860e-b0f67d55cb6b}</Project>
       <Name>PluginLoader</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

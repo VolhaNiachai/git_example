@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{792AD1C2-C902-4558-ABFC-6EADF4B95E9C}</ProjectGuid>
+    <ProjectGuid>{46ECFFB8-CFA5-4B26-B37E-4A3DCD96ED07}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TestMethods</RootNamespace>
     <AssemblyName>TestMethods</AssemblyName>
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>.\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -42,13 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestMethods.cs" />
+    <Compile Include="Methods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MethodsTracer\MethodsTracer.csproj">
@@ -56,7 +54,7 @@
       <Name>MethodsTracer</Name>
     </ProjectReference>
     <ProjectReference Include="..\PluginLoader\PluginLoader.csproj">
-      <Project>{b7c19ee7-7085-4d32-9c05-1499860faf89}</Project>
+      <Project>{d5e1f8d7-f27e-497c-860e-b0f67d55cb6b}</Project>
       <Name>PluginLoader</Name>
     </ProjectReference>
   </ItemGroup>

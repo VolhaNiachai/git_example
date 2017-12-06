@@ -15,7 +15,6 @@ namespace PluginLoader
         public void LoadPlugins()
         {
             Plugins = new List<IFormatPlugin>();
-
             if (Directory.Exists(Constants.Foldername))
             {
                 string[] files = Directory.GetFiles(Constants.Foldername);

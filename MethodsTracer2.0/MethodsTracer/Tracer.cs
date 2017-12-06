@@ -35,9 +35,9 @@ namespace MethodsTracer
             StackTrace stackTrace = new StackTrace();
             TraceResult result = new TraceResult();
             result = new TraceResult();
-            result.MethodsName = stackTrace.GetFrame(1).GetMethod().Name;
-            result.MethodsTypeName = stackTrace.GetFrame(1).GetMethod().DeclaringType.Name;
-            result.QuantityOfParameters = stackTrace.GetFrame(1).GetMethod().GetParameters().Length;
+            result.MethodsName = stackTrace.GetFrame(2).GetMethod().Name;
+            result.MethodsTypeName = stackTrace.GetFrame(2).GetMethod().DeclaringType.Name;
+            result.QuantityOfParameters = stackTrace.GetFrame(2).GetMethod().GetParameters().Length;
             result.CurrentTime = Timer.ElapsedMilliseconds;
             Result.Add(result);
         }
