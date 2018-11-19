@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsTracer", "MethodsTracer\MethodsTracer.csproj", "{B548E6BD-9641-418C-8258-7714F40B0C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlFormatter", "XmlFormatter\XmlFormatter.csproj", "{3D74C781-1A29-4CB0-9CCB-29AEEAB3808C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLoader", "PluginLoader\PluginLoader.csproj", "{D5E1F8D7-F27E-497C-860E-B0F67D55CB6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMethods", "TestMethods\TestMethods.csproj", "{46ECFFB8-CFA5-4B26-B37E-4A3DCD96ED07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonFormatter", "JsonFormatter\JsonFormatter.csproj", "{97BF2F3B-9184-4F20-9AE2-A843B904E720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlFormatter", "YamlFormatter\YamlFormatter.csproj", "{37DE944B-D4A5-4882-B980-2094164510AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B548E6BD-9641-418C-8258-7714F40B0C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B548E6BD-9641-418C-8258-7714F40B0C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B548E6BD-9641-418C-8258-7714F40B0C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B548E6BD-9641-418C-8258-7714F40B0C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D74C781-1A29-4CB0-9CCB-29AEEAB3808C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D74C781-1A29-4CB0-9CCB-29AEEAB3808C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D74C781-1A29-4CB0-9CCB-29AEEAB3808C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D74C781-1A29-4CB0-9CCB-29AEEAB3808C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E1F8D7-F27E-497C-860E-B0F67D55CB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E1F8D7-F27E-497C-860E-B0F67D55CB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E1F8D7-F27E-497C-860E-B0F67D55CB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E1F8D7-F27E-497C-860E-B0F67D55CB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ECFFB8-CFA5-4B26-B37E-4A3DCD96ED07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ECFFB8-CFA5-4B26-B37E-4A3DCD96ED07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ECFFB8-CFA5-4B26-B37E-4A3DCD96ED07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ECFFB8-CFA5-4B26-B37E-4A3DCD96ED07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BF2F3B-9184-4F20-9AE2-A843B904E720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BF2F3B-9184-4F20-9AE2-A843B904E720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BF2F3B-9184-4F20-9AE2-A843B904E720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BF2F3B-9184-4F20-9AE2-A843B904E720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DE944B-D4A5-4882-B980-2094164510AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DE944B-D4A5-4882-B980-2094164510AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DE944B-D4A5-4882-B980-2094164510AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DE944B-D4A5-4882-B980-2094164510AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {853B7AF4-D2A4-42F3-9B73-7DA6EBA2EC1A}
+	EndGlobalSection
+EndGlobal
